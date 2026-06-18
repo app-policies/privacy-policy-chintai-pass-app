@@ -34,6 +34,31 @@ AdMobのプライバシーポリシー：[https://policies.google.com/privacy](h
 
 RevenueCatのプライバシーポリシー：[https://www.revenuecat.com/privacy](https://www.revenuecat.com/privacy)
 
+#### Firebase Analytics（利用状況分析）
+本アプリでは、アプリの利用状況を把握し、機能改善や品質改善に役立てるため、Firebase Analyticsを利用しています。Firebase Analyticsでは、以下のような情報が収集される場合があります。
+
+- アプリの起動、学習開始、回答、学習完了などの利用イベント
+- 画面や機能の利用状況
+- アプリのバージョン、端末種別、OS情報
+- おおよその地域情報
+- アプリの動作状況や診断情報
+
+本アプリはFirebase Analyticsを分析目的にのみ利用し、Firebase Authentication、Firestore、Realtime Database、Cloud Functions、Storage、Remote Config、Crashlytics、Cloud Messaging、App Check、BigQuery Export、Firebase AI Logicは利用していません。
+
+Firebaseのプライバシーポリシー：[https://policies.google.com/privacy](https://policies.google.com/privacy)
+
+### Firebase Analyticsへ送信しない情報
+
+本アプリは、Firebase Analyticsへ以下の情報を送信しません。
+
+- 問題本文、選択肢本文、解説本文
+- 氏名、メールアドレス、自由入力内容
+- 個別の相談内容
+- 問題ID
+- 決済識別子の生値
+- 広告ID、広告レスポンス全文、広告リクエストID
+- アプリ内課金や広告配信に使用する内部キー
+
 ---
 
 ## 2. 情報の利用目的
@@ -44,6 +69,7 @@ RevenueCatのプライバシーポリシー：[https://www.revenuecat.com/privac
 - アプリ設定の保持
 - 広告の配信（無料ユーザーのみ）
 - アプリ内課金の管理
+- 利用状況の分析および品質改善
 
 ---
 
@@ -79,4 +105,4 @@ RevenueCatのプライバシーポリシー：[https://www.revenuecat.com/privac
 
 ---
 
-*最終更新日：2026年6月7日*
+*最終更新日：2026年6月19日*
